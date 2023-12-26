@@ -168,7 +168,12 @@
                 </div>
                 <div class="col-lg-4 col-md-12 wow fadeInUp contact-form" data-wow-delay="0.5s">
                     <div id="alertMessage"></div>
-                    <form id="contactForm" novalidate="novalidate">
+
+
+
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+
                         <div class="row">
                             <div class="col-sm-6 control-group">
                                 <input type="text" class="form-control py-2" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
@@ -198,6 +203,10 @@
                             </div>
                         </div>
                     </form>
+
+
+
+
                 </div>
             </div>
         </div>
